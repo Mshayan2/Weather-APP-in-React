@@ -57,7 +57,7 @@ const Wheather = () => {
                             Temp Is: {Math.round(weatherData.main.temp - 273.15)}°C
                         </h1>
                         <h3 className="tempmin_max">
-                            M Min Temp: {(weatherData.main.temp_min - 273.15).toFixed(2)}°C / Max Temp: {(weatherData.main.temp_max - 273.15).toFixed(2)}°C
+                             Min Temp: {(weatherData.main.temp_min - 273.15).toFixed(2)}°C / Max Temp: {(weatherData.main.temp_max - 272.10).toFixed(2)}°C
                         </h3>
                       
                         <p>{weatherData.weather[0].description }</p>
